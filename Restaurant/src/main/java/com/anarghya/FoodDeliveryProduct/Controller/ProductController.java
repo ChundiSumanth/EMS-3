@@ -163,7 +163,7 @@ import com.anarghya.FoodDeliveryProduct.Service.ProductService;
 import java.util.List;
 
 @RestController
-//@RequestMapping("/products")
+@RequestMapping("/products")
 @CrossOrigin(origins = "*")
 public class ProductController {
 
